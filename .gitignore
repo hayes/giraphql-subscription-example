@@ -1,0 +1,38 @@
+# Logs
+logs/
+*.log
+
+# Cache
+.eslintcache
+.idea
+.npm
+.vscode
+.yarnclean
+
+# Directories
+coverage/
+esm/
+generated-apps/
+lib/
+node_modules/
+public/
+styleguide/
+dist/
+
+
+# Custom
+src/types/graphql.d.ts
+src/client/graphql.ts
+
+# Configs
+.babelrc
+.eslintignore
+.eslintrc.js
+.flowconfig
+.nvmrc
+.prettierignore
+prettier.config.js
+babel.config.js
+jest.config.js
+tsconfig.json
+tsconfig.eslint.json

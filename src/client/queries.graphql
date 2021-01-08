@@ -1,0 +1,11 @@
+query helloWorld {
+  hello
+}
+
+subscription helloSubscribe {
+  hello
+}
+
+mutation sayHi($name: String!) {
+  sayHello(name: $name)
+}
